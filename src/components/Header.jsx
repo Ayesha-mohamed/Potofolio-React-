@@ -9,13 +9,11 @@ function Header() {
     <ul className="sm:flex gap-10 text-2xl hidden">
          <Link to="/"><li>Home</li></Link>
           <Link to="/About"><li>About</li></Link>
-
           <Link to="/Contact"><li>Contact</li></Link>
-
     </ul>
   </div>
-
+  
     </>
-    
+
 }
 export default Header

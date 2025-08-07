@@ -7,8 +7,8 @@ function Footer() {
     <div className="flex flex-col md:flex-row justify-between items-center">
   
       <div className="mb-6 md:mb-0">
-        <h2 class="text-2xl font-bold">Aisha Mohamed</h2>
-        <p class="text-gray-400 mt-2">Statistician & Web Developer & BG:Graphic designer</p>
+        <h2 className="text-2xl font-bold">Aisha Mohamed</h2>
+        <p className="text-gray-400 mt-2">Statistician & Web Developer & BG:Graphic designer</p>
       </div>
 
      
@@ -23,24 +23,24 @@ function Footer() {
       
       <div className="flex space-x-6">
         <a href="https://github.com/ayesha-mohamed" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-purple-400 transition transform hover:-translate-y-1">
-          <i class="fab fa-github"></i>
+          <i className="fab fa-github"></i>
         </a>
         <a href="https://instagram.com/the_silent_eyes1" target="_blank" rel="noopener noreferrer"  className="text-2xl hover:text-purple-400 transition transform hover:-translate-y-1">
-          <i class="fab fa-instagram"></i>
+          <i className="fab fa-instagram"></i>
         </a>
         <a href="https://wa.me/614937829" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-purple-400 transition transform hover:-translate-y-1">
-          <i class="fab fa-whatsapp"></i>
+          <i className="fab fa-whatsapp"></i>
         </a>
         <a href="mailto:ayeshamohamed833@gmail.com"  className="text-2xl hover:text-purple-400 transition transform hover:-translate-y-1">
-          <i class="fas fa-envelope"></i>
+          <i className="fas fa-envelope"></i>
         </a>
       </div>
     </div>
 
   
-    <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+    <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
       <p>&copy; <span id="currentYear"></span> Aisha Mohamed. All rights reserved.</p>
-      <p class="mt-2 text-sm">Made with <i class="fas fa-heart text-red-500"></i> and Tailwind CSS</p>
+      <p className="mt-2 text-sm">Made with <i class="fas fa-heart text-red-500"></i> and Tailwind CSS</p>
     </div>
   </div>
 
